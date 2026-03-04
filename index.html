@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+            <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,16 +6,16 @@
     <title>Rudra Online Services | Jalkot - All Digital Services</title>
     <meta name="description" content="Rudra Online Services in Jalkot. We provide PAN Card, Passport, ANM/GNM Registration, and all government online services. Fast, reliable, and affordable.">
     
-    <!-- Tailwind CSS (Modern Styling) -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- FontAwesome (Icons) -->
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Custom Config for Brand Colors -->
+    <!-- Custom Config -->
     <script>
         tailwind.config = {
             theme: {
@@ -23,7 +23,7 @@
                     colors: {
                         brand: {
                             light: '#3b82f6',
-                            DEFAULT: '#1d4ed8', // Deep Blue
+                            DEFAULT: '#1d4ed8',
                             dark: '#1e3a8a',
                         }
                     },
@@ -36,19 +36,16 @@
     </script>
 
     <style>
-        /* Smooth Scrolling */
         html {
             scroll-behavior: smooth;
         }
         
-        /* Hero Background */
         .hero-bg {
             background-image: linear-gradient(rgba(29, 78, 216, 0.85), rgba(30, 58, 138, 0.9)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
         }
 
-        /* Floating WhatsApp Button */
         .float-wa {
             position: fixed;
             width: 60px;
@@ -71,7 +68,6 @@
             transform: scale(1.1);
         }
 
-        /* Card Hover Effect */
         .service-card {
             transition: all 0.3s ease;
         }
@@ -88,7 +84,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <span class="text-2xl font-bold text-brand-dark"><i class="fa-solid fa-laptop-medical mr-2"></i>Rudra Online</span>
+                    <!-- LOGO HERE -->
+                    <img src="logo.png" alt="Rudra Online Services Logo" class="h-10 w-10 mr-2">
+                    <span class="text-2xl font-bold text-brand-dark">Rudra Online</span>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="text-gray-600 hover:text-brand transition">Home</a>
@@ -96,7 +94,6 @@
                     <a href="#services" class="text-gray-600 hover:text-brand transition">Services</a>
                     <a href="#contact" class="bg-brand text-white px-4 py-2 rounded-full hover:bg-brand-dark transition">Contact Us</a>
                 </div>
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-btn" class="text-gray-600 hover:text-brand focus:outline-none">
                         <i class="fa-solid fa-bars text-2xl"></i>
@@ -104,7 +101,6 @@
                 </div>
             </div>
         </div>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <a href="#home" class="block py-2 px-4 text-sm hover:bg-gray-100">Home</a>
             <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-100">About</a>
@@ -182,7 +178,6 @@
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Service 1 -->
                 <div class="service-card bg-white p-6 rounded-xl shadow border border-gray-100">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-brand mb-4">
                         <i class="fa-solid fa-user-nurse text-xl"></i>
@@ -191,7 +186,6 @@
                     <p class="text-sm text-gray-500">Registration and Diploma services for nursing students.</p>
                 </div>
 
-                <!-- Service 2 -->
                 <div class="service-card bg-white p-6 rounded-xl shadow border border-gray-100">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-brand mb-4">
                         <i class="fa-solid fa-id-card text-xl"></i>
@@ -200,7 +194,6 @@
                     <p class="text-sm text-gray-500">New PAN Card application and corrections.</p>
                 </div>
 
-                <!-- Service 3 -->
                 <div class="service-card bg-white p-6 rounded-xl shadow border border-gray-100">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-brand mb-4">
                         <i class="fa-solid fa-file-signature text-xl"></i>
@@ -209,7 +202,6 @@
                     <p class="text-sm text-gray-500">Help with all government and private online forms.</p>
                 </div>
 
-                <!-- Service 4 -->
                 <div class="service-card bg-white p-6 rounded-xl shadow border border-gray-100">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-brand mb-4">
                         <i class="fa-solid fa-landmark text-xl"></i>
@@ -218,7 +210,6 @@
                     <p class="text-sm text-gray-500">Registration for various state and central government schemes.</p>
                 </div>
 
-                <!-- Service 5 -->
                 <div class="service-card bg-white p-6 rounded-xl shadow border border-gray-100">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-brand mb-4">
                         <i class="fa-solid fa-passport text-xl"></i>
@@ -227,7 +218,6 @@
                     <p class="text-sm text-gray-500">Photo services, application filling, and tracking.</p>
                 </div>
 
-                <!-- Service 6 -->
                 <div class="service-card bg-white p-6 rounded-xl shadow border border-gray-100">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-brand mb-4">
                         <i class="fa-solid fa-print text-xl"></i>
@@ -249,6 +239,29 @@
             </div>
 
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Contact Info & Map -->
                 <div class="space-y-6">
-                    <div class="bg-blue-
+                    <div class="bg-blue-50 p-6 rounded-xl border border-blue-100">
+                        <h3 class="text-xl font-bold text-brand-dark mb-4">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-phone text-brand text-xl w-8"></i>
+                                <a href="tel:9552145617" class="text-gray-700 hover:text-brand">9552145617</a>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-brands fa-whatsapp text-brand text-xl w-8"></i>
+                                <a href="https://wa.me/919552145617" class="text-gray-700 hover:text-brand">9552145617</a>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fa-solid fa-envelope text-brand text-xl w-8"></i>
+                                <a href="mailto:chaundasares@gmail.com" class="text-gray-700 hover:text-brand">chaundasares@gmail.com</a>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fa-solid fa-location-dot text-brand text-xl w-8 mt-1"></i>
+                                <p class="text-gray-700">Annabhausathe Chauk Jalkot - 413532</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-brand-dark mb-4">Quick Contact</h3>
+                        <div class="space-y-3">
